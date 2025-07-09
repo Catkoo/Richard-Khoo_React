@@ -1,12 +1,68 @@
-# React + Vite
+# 💼 Richard Khoo - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with **React**, designed to showcase my projects, skills, certifications, and experiences in a sleek and modern layout.
 
-Currently, two official plugins are available:
+![Portfolio Screenshot](./public/images/portfolio-preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔗 [richard-khoo.vercel.app](https://richard-khoo.vercel.app)
+
+---
+
+## ✨ Features
+
+- 🎯 Smooth scroll & animated transitions  
+- 📱 Responsive design (Mobile-first)  
+- 🛠️ Built using React + Vite  
+- 🌙 Elegant dark theme  
+- 📜 Downloadable CV  
+- 🖼️ Interactive project cards  
+- 🧾 Certificate showcase  
+- 🔗 Social media integration  
+
+---
+
+## 🧰 Tech Stack
+
+- **Frontend:** React, HTML5, CSS3  
+- **Animations:** Framer Motion, IntersectionObserver  
+- **Deployment:** Vercel  
+- **Design:** Custom CSS (no UI framework)  
+
+---
+
+## 📂 Sections Included
+
+- **Home**  
+- **About Me**  
+- **Projects**  
+- **Skills**  
+- **Certificates**  
+- **Experience**  
+- **Contact**
+
+---
+
+## 🖼️ Screenshots
+
+| Desktop | Mobile |
+|--------|--------|
+| ![Desktop](./public/images/desktop-view.png) | ![Mobile](./public/images/mobile-view.png) |
+
+---
+
+## 📄 Getting Started
+
+To run the project locally:
+
+```bash
+git clone https://github.com/username/richard-khoo.git
+cd richard-khoo
+npm install
+npm run dev
+
+
+© 2025 Richard Khoo — Designed & built using React and Vercel.
