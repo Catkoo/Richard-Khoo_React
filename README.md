@@ -2,7 +2,7 @@
 
 A personal portfolio website built with **React**, designed to showcase my projects, skills, certifications, and experiences in a sleek and modern layout.
 
-![Portfolio Screenshot](./public/images/portfolio-preview.png)
+![Portfolio Screenshot](./public/images/SS-Desktop.png)
 
 ---
 
@@ -50,7 +50,7 @@ A personal portfolio website built with **React**, designed to showcase my proje
 
 | Desktop | Mobile |
 |--------|--------|
-| ![Desktop](./public/images/desktop-view.png) | ![Mobile](./public/images/mobile-view.png) |
+| ![Desktop](./public/images/SS-Desktop.png) | ![Mobile](Coming Soon) |
 
 ---
 
@@ -63,6 +63,3 @@ git clone https://github.com/username/richard-khoo.git
 cd richard-khoo
 npm install
 npm run dev
-
-
-© 2025 Richard Khoo — Designed & built using React and Vercel.
