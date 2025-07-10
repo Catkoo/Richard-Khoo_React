@@ -34,6 +34,7 @@ const Home = () => {
                     Solving problems and creating seamless digital experiences with every project.
                     Let's make technology work for you!
                 </p>
+                <p className="social-intro">Let’s connect:</p>
                 <div className="social-media">
                     <a href="https://www.instagram.com/catkoo_/" target="_blank">
                         <img src="/images/IG.png" alt="Instagram" className="social-icon" />

@@ -3,7 +3,7 @@ const Projects = () => {
         <section id="projects" className="projects">
             <div className="container-projects">
                 <h2>Projects</h2>
-                <p>Explore my recent projects on GitHub.</p>
+                <p>Showcasing my latest software and design projects.</p>
 
                 <div className="project-grid">
                     {/* Project 1 */}
@@ -44,7 +44,25 @@ const Projects = () => {
                         </div>
                     </a>
 
-                    
+                    {/* Project 3 - Figma Design */}
+                    <a href="https://www.figma.com/design/hC4bHLvkGAJc08BbcSXvx4/JAYA-STORE?node-id=0-1&p=f&t=GJCR34mh4K2mKlv8-0" className="project-link" target="_blank" rel="noopener noreferrer">
+                        <div className="project">
+                            <div className="project-info">
+                                <h3>Jaya Store UI</h3>
+                                <p>
+                                    E-commerce app UI for electronics — includes login, catalog, cart & profile screens.
+                                </p>
+                                <div className="tags">
+                                    <span>Figma</span>
+                                    <span>UI/UX</span>
+                                </div>
+                            </div>
+                            <div className="github-icon">
+                                <img src="/images/figma.png" alt="Figma" />
+                            </div>
+                        </div>
+                    </a>
+
                 </div>
             </div>
         </section>

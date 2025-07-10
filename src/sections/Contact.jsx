@@ -3,11 +3,15 @@ const Contact = () => {
         <section id="contact" className="contact">
             <div className="container-contact">
                 <h1>Contact Me</h1>
-                <p>
-                    I'd love to hear your thoughts! Feel free to contact me via the form below or via my email&nbsp;
+                <p className="contact-text">
+                    I'm open to opportunities, collaborations, or just a friendly hello.
+                    You can reach me directly via email &nbsp;
                     <a href="mailto:richard.khoo19@gmail.com" className="email-link">
                         richard.khoo19@gmail.com
                     </a>
+                </p>
+                <p className="social-note">
+                    You can also find my social media links in the <a href="#home">Home</a> section.
                 </p>
             </div>
         </section>
@@ -15,4 +19,3 @@ const Contact = () => {
 };
 
 export default Contact;
-  

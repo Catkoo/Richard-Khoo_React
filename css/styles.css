@@ -64,9 +64,19 @@ section {
 }
 
 /* Social Media Icons */
+.social-intro {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #ffcc00;
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    letter-spacing: 0.6px;
+}
+
 .social-media {
     display: flex;
     gap: 15px;
+    margin-top: 15px;
     margin-bottom: 20px;
 }
 
@@ -419,46 +429,29 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.contact-form label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: bold;
-    color: #333;
-}
-
-.contact-form input,
-.contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1rem;
-}
-
-.contact-form textarea {
-    resize: none;
-}
-
-.contact-form button {
-    background: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-.contact-form button:hover {
-    background: #555;
-}
-
 .email-link {
     font-weight: bold;
     text-decoration: underline;
     text-underline-offset: 0.1em;
+}
+
+.contact-text,
+.social-note {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.email-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.email-link:hover {
+    text-decoration: underline;
 }
 
 /* Project */
@@ -634,6 +627,16 @@ section {
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     object-fit: contain;
+}
+
+.github-icon img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.2s ease;
+}
+
+.github-icon img:hover {
+    transform: scale(1.1);
 }
 
 /* Footer */
