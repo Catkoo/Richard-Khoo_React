@@ -10,11 +10,16 @@ import Skills from './sections/Skills';
 import Certificate from "./sections/Certificate";
 import Experience from './sections/Experience';
 import Contact from './sections/Contact';
+import Maintenance from './components/Maintenance';
 
 function App() {
+  const isMaintenance = import.meta.env.VITE_MAINTENANCE === "true";
+
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
+
+  if (isMaintenance) return <Maintenance />;
 
   return (
     <>
