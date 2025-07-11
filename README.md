@@ -50,7 +50,7 @@ A personal portfolio website built with **React**, designed to showcase my proje
 
 | Desktop | Mobile |
 |--------|--------|
-| ![Desktop](./public/images/SS-Desktop.png) | ![Mobile](Coming Soon) |
+| ![Desktop](./public/images/SS-Desktop.png) | ![Mobile](./public/images/SS-Hp.jpg) |
 
 ---
 
@@ -59,7 +59,7 @@ A personal portfolio website built with **React**, designed to showcase my proje
 To run the project locally:
 
 ```bash
-git clone https://github.com/username/richard-khoo.git
+git clone https://github.com/Catkoo/Richard-Khoo_React.git
 cd richard-khoo
 npm install
 npm run dev
