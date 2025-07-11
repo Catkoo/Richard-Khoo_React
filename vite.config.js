@@ -9,9 +9,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'favicon.ico', 'robots.txt', 'apple-touch-icon.png'],
       manifest: {
-        name: 'Richard Khoo Portfolio',
-        short_name: 'RichardPortfolio',
-        description: 'Portfolio Website of Richard Khoo',
+        name: 'Richard Khoo Portofolio',
+        short_name: 'RichardPortofolio',
+        description: 'Portofolio Website of Richard Khoo',
         theme_color: '#000000',
         background_color: '#ffffff',
         display: 'standalone',
