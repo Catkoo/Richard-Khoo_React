@@ -44,7 +44,25 @@ const Projects = () => {
                         </div>
                     </a>
 
-                    {/* Project 3 - Figma Design */}
+                    {/* Project 3 */}
+                    <a href="https://github.com/ArgoTrack-Bangkit/Cloud-Computing" className="project-link" target="_blank" rel="noopener noreferrer">
+                        <div className="project">
+                            <div className="project-info">
+                                <h3>ArgoTrack Backend</h3>
+                                <p>ArgoTrack helps tomato farmers monitor and optimize crop health using smart technology, enabling better productivity and efficient farming decisions.</p>
+                                <div className="tags">
+                                    <span>Express.js</span>
+                                    <span>Firebase</span>
+                                    <span>Javascript</span>
+                                </div>
+                            </div>
+                            <div className="github-icon">
+                                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" />
+                            </div>
+                        </div>
+                    </a>
+
+                    {/* Project 4 - Figma Design */}
                     <a href="https://www.figma.com/design/hC4bHLvkGAJc08BbcSXvx4/JAYA-STORE?node-id=0-1&p=f&t=GJCR34mh4K2mKlv8-0" className="project-link" target="_blank" rel="noopener noreferrer">
                         <div className="project">
                             <div className="project-info">
