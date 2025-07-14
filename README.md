@@ -1,8 +1,8 @@
-# 💼 Richard Khoo - Portfolio Website
+# 💼 Richard Khoo - Portofolio Website
 
-A personal portfolio website built with **React**, designed to showcase my projects, skills, certifications, and experiences in a sleek and modern layout.
+A personal Portofolio website built with **React**, designed to showcase my projects, skills, certifications, and experiences in a sleek and modern layout.
 
-![Portfolio Screenshot](./public/images/SS-Desktop.png)
+![Portofolio Screenshot](./public/images/SS-Desktop.png)
 
 ---
 
