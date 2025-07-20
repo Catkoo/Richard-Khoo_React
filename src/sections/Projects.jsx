@@ -62,7 +62,25 @@ const Projects = () => {
                         </div>
                     </a>
 
-                    {/* Project 4 - Figma Design */}
+                    {/* Project 4 */}
+                    <a href="https://github.com/Catkoo/MyNotePlus_Flutter" className="project-link" target="_blank" rel="noopener noreferrer">
+                        <div className="project">
+                            <div className="project-info">
+                                <h3>MyNoteApp</h3>
+                                <p>A modern, lightweight, and practical app for managing personal notes and film/drama watchlists. Built with Flutter & Firebase.</p>
+                                <div className="tags">
+                                    <span>Flutter</span>
+                                    <span>Firebase</span>
+                                    <span>Provider</span>
+                                </div>
+                            </div>
+                            <div className="github-icon">
+                                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" />
+                            </div>
+                        </div>
+                    </a>
+
+                    {/* Project 5 - Figma Design */}
                     <a href="https://www.figma.com/design/hC4bHLvkGAJc08BbcSXvx4/JAYA-STORE?node-id=0-1&p=f&t=GJCR34mh4K2mKlv8-0" className="project-link" target="_blank" rel="noopener noreferrer">
                         <div className="project">
                             <div className="project-info">
