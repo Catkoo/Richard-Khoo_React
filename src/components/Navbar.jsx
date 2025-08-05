@@ -3,16 +3,17 @@ import { useState } from "react";
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const handleLinkClick = () => setIsOpen(false);
+    const toggleMenu = () => setIsOpen(!isOpen);
 
     return (
         <nav className="navbar">
-            <div className="mobile-menu-label">
-                <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
+            <div className="mobile-menu-label" onClick={toggleMenu}>
+                <div className="hamburger">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
-                <span className="menu-text">Menu</span>
+                <span className="menu-title">Menu</span>
             </div>
 
             <ul className={`menu ${isOpen ? "open" : ""}`}>

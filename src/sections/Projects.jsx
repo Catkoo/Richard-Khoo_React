@@ -9,6 +9,7 @@ const Projects = () => {
                     {/* Project 1 */}
                     <a href="https://github.com/Catkoo/ChiliCare" className="project-link" target="_blank" rel="noopener noreferrer">
                         <div className="project">
+                            {/* <img src="#" alt="Project" className="project-image" /> */}
                             <div className="project-info">
                                 <h3>ChiliCare</h3>
                                 <p>Detecting chili diseases using the ESP-32 Cam Camera Using AI</p>

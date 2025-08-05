@@ -1,22 +1,8 @@
-import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { Typewriter } from "react-simple-typewriter";
+import Tilt from "react-parallax-tilt";
 
 const Home = () => {
-    const textArray = ["Backend Developer", "Web Developer", "UI/UX Designer"];
-    const [currentText, setCurrentText] = useState(textArray[0]);
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentText(prev => {
-                const currentIndex = textArray.indexOf(prev);
-                const nextIndex = (currentIndex + 1) % textArray.length;
-                return textArray[nextIndex];
-            });
-        }, 2000);
-
-        return () => clearInterval(interval);
-    }, []);
-
     return (
         <motion.section
             id="home"
@@ -29,12 +15,25 @@ const Home = () => {
                 <h1 className="main-title">
                     Hi, I'm <span>Richard Khoo</span>
                 </h1>
-                <p className="yellow-text">{currentText}</p>
-                <p className="intro">
-                    Solving problems and creating seamless digital experiences with every project.
-                    Let's make technology work for you!
+
+                <p className="yellow-text">
+                    <Typewriter
+                        words={["Backend Developer", "Web Developer", "UI/UX Designer"]}
+                        loop
+                        cursor
+                        cursorStyle="_"
+                        typeSpeed={70}
+                        deleteSpeed={50}
+                        delaySpeed={2000}
+                    />
                 </p>
+
+                <p className="intro">
+                    Solving problems and creating seamless digital experiences with every project. Let's make technology work for you!
+                </p>
+
                 <p className="social-intro">Let’s connect:</p>
+
                 <div className="social-media">
                     <a href="https://www.instagram.com/catkoo_/" target="_blank">
                         <img src="/images/IG.png" alt="Instagram" className="social-icon" />
@@ -49,6 +48,7 @@ const Home = () => {
                         <img src="/images/X.png" alt="X" className="social-icon" />
                     </a>
                 </div>
+
                 <div className="cta-buttons">
                     <a href="/cv/CV - Richard Khoo.pdf" download>
                         <button className="btn secondary">Download My CV</button>
@@ -59,12 +59,21 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="home-image">
-                <img src="/images/foto.jpg" alt="Profile Image" />
-            </div>
+            <Tilt
+                glareEnable={true}
+                glareMaxOpacity={0.15}
+                glareColor="#facc15"
+                glarePosition="all"
+                tiltMaxAngleX={8}
+                tiltMaxAngleY={8}
+                className="tilt-box"
+            >
+                <div className="home-image">
+                    <img src="/images/foto.jpg" alt="Profile Image" className="profile-image" />
+                </div>
+            </Tilt>
         </motion.section>
     );
 };
 
 export default Home;
-  
