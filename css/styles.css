@@ -22,6 +22,7 @@ section {
     scroll-margin-top: 100px;
 }
 
+
 /* Navbar */
 .navbar {
     position: fixed;
@@ -115,6 +116,7 @@ section {
     font-size: 2.75rem;
     font-weight: bold;
     line-height: 1.2;
+    color: #facc15;
 }
 
 .main-title span {
@@ -131,7 +133,7 @@ section {
 .intro {
     font-size: 1.05rem;
     margin-bottom: 1.25rem;
-    color: #ccc;
+    color: #fff;
     line-height: 1.6;
 }
 
@@ -203,11 +205,7 @@ section {
 .tilt-box {
     flex: 1 1 300px;
     max-width: 350px;
-    /* Ukuran dikurangi */
-    background: #1e1e1e;
-    border-radius: 1rem;
     padding: 0.75rem;
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
     transition: transform 0.4s ease;
 }
 
@@ -233,8 +231,6 @@ section {
 /* About Section */
 .about {
     padding: 80px 20px;
-    background-color: #f9fafb;
-    /* Warna abu terang */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -242,7 +238,6 @@ section {
 }
 
 .about-content {
-    background: white;
     border-radius: 12px;
     padding: 40px 30px;
     max-width: 800px;
@@ -256,6 +251,7 @@ section {
     text-align: center;
     color: #111827;
     position: relative;
+    color: #facc15;
 }
 
 .about h2::after {
@@ -270,7 +266,7 @@ section {
 
 .about p {
     font-size: 1.1rem;
-    color: #4b5563;
+    color: #fff;
     line-height: 1.75;
     text-align: justify;
 }
@@ -290,14 +286,13 @@ section {
 /* Skills Section */
 .skills {
     padding: 60px 20px;
-    background-color: #ffffff;
     text-align: center;
 }
 
 .skills h2 {
     font-size: 2.5rem;
     margin-bottom: 40px;
-    color: #222;
+    color: #facc15;
 }
 
 .skills-list {
@@ -309,7 +304,8 @@ section {
 }
 
 .skill-item {
-    background: linear-gradient(to right, #f8f8f8, #eaeaea);
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
     border: none;
     padding: 14px 24px;
     color: #222;
@@ -333,11 +329,12 @@ section {
 .certificates {
     padding: 60px 20px;
     text-align: center;
-    background-color: #f5f5f5;
 }
 
 .certificates h2 {
-    font-size: 40px; }
+    font-size: 40px; 
+    color: #facc15;
+}
 
 .certificate-grid {
     display: flex;
@@ -348,11 +345,11 @@ section {
 }
 
 .certificate-card {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
     border-radius: 16px;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
     width: 300px;
-    /* 🔼 Ukuran diperbesar */
     text-decoration: none;
     color: inherit;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -388,13 +385,12 @@ section {
     padding: 20px;
     text-align: center;
     min-height: 100vh;
-    background-color: #ffffff;
 }
 
 .experience h2 {
     font-size: 40px;
     margin-bottom: 10px;
-    color: #222;
+    color: #facc15;
     scroll-margin-top: 100px;
 }
 
@@ -436,7 +432,8 @@ section {
 }
 
 .timeline-item .content {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
     color: #000;
     padding: 20px;
     border: 1px solid #000;
@@ -492,18 +489,17 @@ section {
 .contact {
     padding: 40px 20px;
     text-align: center;
-    background-color: #f5f5f5;
 }
 
 .contact h1 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #333;
+    color: #facc15;
 }
 
 .contact p {
     font-size: 1rem;
-    color: #555;
+    color: #fff;
     margin-bottom: 30px;
 }
 
@@ -511,10 +507,7 @@ section {
 .container-contact {
     max-width: 600px;
     margin: 0 auto;
-    background: #fff;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .email-link {
@@ -546,18 +539,17 @@ section {
 .projects {
     padding: 60px 20px;
     text-align: center;
-    background-color: #f5f5f5;
 }
 
 .projects h2 {
     font-size: 2.5rem;
     margin-bottom: 10px;
-    color: #222;
+    color: #facc15;
 }
 
 .projects p {
     font-size: 1.1rem;
-    color: #555;
+    color: #fff;
     margin-bottom: 40px;
 }
 
@@ -578,7 +570,8 @@ section {
 }
 
 .project {
-    background-color: #fff;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
     border-radius: 16px;
     padding: 24px;
     text-align: center;
@@ -629,7 +622,8 @@ section {
 }
 
 .tags span {
-    background-color: #f0f0f0;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
     color: #333;
     padding: 6px 14px;
     font-size: 0.75rem;
@@ -647,6 +641,7 @@ section {
     margin-top: auto;
     display: flex;
     justify-content: center;
+    background: rgba(255, 255, 255, 0.85);
 }
 
 .github-icon img {
@@ -672,10 +667,8 @@ section {
     text-align: center;
     padding: 20px;
     margin-top: 40px;
-    background-color: #111;
     color: #fff;
     font-size: 0.9rem;
-    border-top: 1px solid #444; 
 }
 
 .mobile-menu-label {
@@ -762,21 +755,9 @@ section {
             max-width: 220px;
             width: 100%;
             margin: 0 auto;
-            padding: 0.4rem 0.4rem 0 0.4rem;
-            background: #1e1e1e;
-            border: 1px solid #facc15;
             animation: glow-border 2s ease-in-out infinite alternate;
         }
-        @keyframes glow-border {
-            0% {
-                box-shadow: 0 0 5px #facc15;
-            }
-    
-            100% {
-                box-shadow: 0 0 15px #facc15;
-            }
-        }
-    
+
         .profile-image {
             border-radius: 0.75rem;
             object-fit: cover;

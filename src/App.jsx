@@ -1,6 +1,7 @@
 import './index.css';
 import { useEffect } from "react";
 import RevealWrapper from './components/RevealWrapper';
+import AnimatedBackground from './components/AnimatedBackground';
 
 import Navbar from './components/Navbar';
 import Home from './sections/Home';
@@ -23,6 +24,7 @@ function App() {
 
   return (
     <>
+      <AnimatedBackground />
       <header>
         <Navbar />
       </header>
