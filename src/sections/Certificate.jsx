@@ -9,7 +9,7 @@ const certificates = [
 const Certificate = () => {
     return (
         <section id="certificates" className="certificates">
-            <h2>My Certificates</h2>
+            <h2>My Certificates 🥇</h2>
             <div className="certificate-grid">
                 {certificates.map((cert, index) => (
                     <a

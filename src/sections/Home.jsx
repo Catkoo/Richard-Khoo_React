@@ -45,7 +45,7 @@ const Home = () => {
                         <img src="/images/github.png" alt="GitHub" className="social-icon" />
                     </a>
                     <a href="https://x.com/Catkoo_" target="_blank">
-                        <img src="/images/X.png" alt="X" className="social-icon" />
+                        <img src="/images/X.png" alt="X" className="social-icon x-icon" />
                     </a>
                 </div>
 
