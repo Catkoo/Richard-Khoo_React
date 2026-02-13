@@ -5,7 +5,7 @@ const About = () => {
                 <div className="about-content">
                     <h2>About Me 👤</h2>
                     <p>
-                        I am Richard Khoo, a magna cumlaude graduate (GPA 3.70) in
+                        I am Richard Khoo, a cumlaude graduate (GPA 3.70) in
                         Informatics Engineering from Sekolah Tinggi Teknologi
                         Indonesia Tanjung Pinang. I specialize in backend development
                         using Node.js, Express.js, and Firebase. As a Bangkit Academy

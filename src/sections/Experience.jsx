@@ -74,6 +74,25 @@ const Experience = () => {
                         </p>
                     </div>
                 </div>
+
+                {/* <div className="timeline-item right-align">
+                <div className="date">Jan 2019 - Jun 2019</div>
+                <div className="icon">🧑‍💻</div>
+                <div className="content">
+                    <h3>Internship – Advertising Staff</h3>
+                    <p>
+                        <span className="mobile-date-only">2019<br /></span>
+                        Tanjungpinang, Indonesia</p>
+                        <br/>
+                        <p>
+                            I completed my vocational high school internship as an advertising staff
+                            at Diva Advertising. I was responsible for assisting in promotional design,
+                            basic graphic editing, and supporting marketing material production.
+                            This experience introduced me to creative workflows and teamwork in a
+                            professional environment.
+                        </p>
+                    </div>
+                </div> */}
             </div>
         </section>
     );

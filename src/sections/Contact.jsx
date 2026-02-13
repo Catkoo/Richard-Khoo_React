@@ -7,7 +7,7 @@ const Contact = () => {
                     I'm open to opportunities, collaborations, or just a friendly hello.
                     You can reach me directly via email &nbsp;
                     <a href="mailto:richard.khoo19@gmail.com" className="email-link">
-                        richard.khoo19@gmail.com
+                        Send me an email ✉️ 
                     </a>
                 </p>
                 <p className="social-note">
