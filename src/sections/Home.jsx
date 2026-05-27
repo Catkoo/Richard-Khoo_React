@@ -103,7 +103,7 @@ const Home = () => {
 
                 <div className="modal-options">
                     <a
-                    href="/cv/CV - Richard Khoo.pdf"
+                    href="/cv/CV Richard Khoo.pdf"
                     download
                     className="cv-option"
                     onClick={() => setShowModal(false)}
@@ -116,7 +116,7 @@ const Home = () => {
                     </a>
 
                     <a
-                    href="/cv/CV - Richard Khoo Bhs.pdf"
+                    href="/cv/CV Richard Khoo bahasa.pdf"
                     download
                     className="cv-option"
                     onClick={() => setShowModal(false)}
